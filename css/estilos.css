@@ -1,0 +1,12 @@
+header#header{
+    background-image: url(../images/fondo1.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+   
+}
+@media (min-width: 768px){
+.h1-large{
+        color:aqua
+    }
+}
+
