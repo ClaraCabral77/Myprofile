@@ -47,8 +47,8 @@ body, p {
 h1 {
 	color: #24262a;
 	font-weight: 700;
-	font-size: 2.5rem;
-	line-height: 3.25rem;
+	font-size: 320%;
+	line-height: 100%;
 	font-family: "Poppins"
 }
 
@@ -526,8 +526,10 @@ input[type='checkbox'] {
 }
 
 .header .h1-large {
+	font-size: 30px;
+	margin-top: 160px;
 	margin-bottom: 1.75rem;
-	color: #534e4e;
+	color: #50534e;
 }
 
 .header .btn-solid-lg:hover {
@@ -992,11 +994,35 @@ a:hover.back-to-top {
 /*     Media Queries     */
 /*************************/	
 /* Min-width 768px */
+@media (min-width: 476px){
+	.btn-solid-lg {
+		display: inline-block;
+		padding: 1.625rem 2.625rem 1.625rem 2.625rem;
+		border: 1px solid #d37a05;
+	background-color:  #f08630;
+		color: #ffffff;
+		font-weight: 600;
+		font-size: 0.875rem;
+		line-height: 0;
+		text-decoration: none;
+		transition: all 0.2s;
+	}
+	.header .h1-large {
+		font-size: 60px;
+		margin-top: 120px;
+		margin-bottom: 1.75rem;
+		color: #50534e;
+	}
+}
+
+
+
 @media (min-width: 768px) {
 
-	
+
 	/* Header */
 	.header {
+
 		padding-top: 11rem;
 		padding-bottom: 9rem;
 	}
@@ -1014,6 +1040,7 @@ a:hover.back-to-top {
 	.ex-basic-1 .text-box {
 		padding: 1.75rem 2rem 0.875rem 2rem;
 	}
+	
 	/* end of extra pages */
 }
 /* end of min-width 768px */
@@ -1023,8 +1050,10 @@ a:hover.back-to-top {
 @media (min-width: 992px) {
 	
 	/* General Styles */
+
+
 	.h2-heading {
-		width: 35.25rem;
+		width: 2.25rem;
 		margin-right: auto;
 		margin-left: auto;
 	}
@@ -1204,8 +1233,8 @@ a:hover.back-to-top {
 
 	/* General Styles */
 	.h1-large {
-		font-size: 3.75rem;
-		line-height: 4.625rem;
+		font-size: 320%;
+		line-height: 100%;
 	}
 	/* end of general styles */
 
