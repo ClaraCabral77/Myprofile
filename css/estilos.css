@@ -4,6 +4,18 @@ header#header{
     background-image: url(../images/fondo1.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
+    margin-top: 50px;
    
+}
+
+@media (min-width: 476px){
+    header#header{
+        background-image: url(../images/fondo1.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        margin-top: -30px;
+        
+       
+    }
 }
 
