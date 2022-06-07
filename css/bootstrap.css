@@ -39,6 +39,7 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  
 }
 
 html {
@@ -582,7 +583,7 @@ pre code {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   margin-right: -15px;
-  margin-left: -15px;
+
 }
 
 .no-gutters {
@@ -606,6 +607,7 @@ pre code {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
+  
 }
 
 .col {
