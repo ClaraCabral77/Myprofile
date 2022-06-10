@@ -8,6 +8,16 @@ header#header{
    
 }
 
+.encabezado{
+    margin-bottom: 5%;
+    text-align: center;
+}
+.parrafo{
+    margin-bottom: 10%;
+    text-align: center;
+}
+
+
 @media (min-width: 476px){
     header#header{
         background-image: url(../images/fondo1.jpg);
@@ -19,20 +29,4 @@ header#header{
     }
 }
 
-#service{
-    margin-left: 47%;
-    margin-bottom: 5%;
-}
-
-#delivery{
-    margin-left: 47%;
-    margin-bottom: 5%; 
-}
-
-#escrito1{
-    margin-left: 17%;
-}
-#escrito2{
-    margin-left: 17%;
-}
 
