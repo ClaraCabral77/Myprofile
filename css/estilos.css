@@ -25,6 +25,13 @@ header#header{
     margin-top: -50px;
 }
 
+.col-lg-6{
+    margin-top: 200px;
+}
+.image-container{
+    padding-top: 30px;
+}
+
 @media (min-width: 476px){
     header#header{
         background-image: url(../images/fondo1.jpg);
@@ -33,6 +40,12 @@ header#header{
       
         
        
+    }
+    .h1-large{
+        margin-top: 50px;
+    }
+    .col-lg-6{
+        margin-top: 300px;
     }
 }
 
