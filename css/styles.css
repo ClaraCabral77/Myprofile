@@ -174,7 +174,7 @@ a:hover {
 .btn-solid-lg {
 	display: inline-block;
 	padding: 1.625rem 2.625rem 1.625rem 2.625rem;
-	border: 1px solid #d37a05;
+	border: 1px solid #f08630;
 	background-color:  #f08630;
 	color: #ffffff;
 	font-weight: 600;
@@ -183,6 +183,8 @@ a:hover {
 	text-decoration: none;
 	transition: all 0.2s;
 }
+
+
 
 .btn-solid-lg:hover {
 	background-color: transparent;
@@ -520,13 +522,12 @@ input[type='checkbox'] {
 /*     Header     */
 /******************/
 .header {
-	padding-top: 7rem;
-	padding-bottom: 5.5rem;
+	padding-top: -50px;
+	padding-bottom: 50rem;
 	background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../images/header-background.jpg') center center no-repeat;
 	background-size: cover;
 	text-align: center;
 }
-
 .header .h1-large {
 	font-size: 30px;
 	margin-top: 160px;
@@ -1023,6 +1024,7 @@ a:hover.back-to-top {
 		margin-bottom: 1.75rem;
 		color: #50534e;
 	}
+
 	
 
 
@@ -1039,6 +1041,8 @@ a:hover.back-to-top {
 		padding-top: 11rem;
 		padding-bottom: 9rem;
 	}
+
+
 	/* end of header */
 
 	/* Services */
@@ -1054,7 +1058,7 @@ a:hover.back-to-top {
 		padding: 1.75rem 2rem 0.875rem 2rem;
 	}
 
-
+	
 	
 	/* end of extra pages */
 }
@@ -1066,7 +1070,7 @@ a:hover.back-to-top {
 	
 	/* General Styles */
 
-
+	
 	.h2-heading {
 		width: 2.25rem;
 		margin-right: auto;
@@ -1249,6 +1253,8 @@ a:hover.back-to-top {
 @media (min-width: 1200px) {
 
 	/* General Styles */
+
+
 	.h1-large {
 		font-size: 320%;
 		line-height: 100%;

@@ -4,10 +4,14 @@ header#header{
     background-image: url(../images/fondo1.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
-    margin-top: 50px;
+    margin-top: 0px;
+    margin-bottom: -150px;
+    padding-bottom: 250px;
    
 }
-
+.text-container{
+    margin-top: -50px;
+}
 .encabezado{
     margin-bottom: 5%;
     text-align: center;
@@ -17,6 +21,9 @@ header#header{
     text-align: center;
 }
 
+.time{
+    margin-top: -50px;
+}
 
 @media (min-width: 476px){
     header#header{
@@ -28,5 +35,4 @@ header#header{
        
     }
 }
-
 
