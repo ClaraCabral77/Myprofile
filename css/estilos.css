@@ -49,3 +49,9 @@ header#header{
     }
 }
 
+@media (min-width: 1200px) {
+    .col-lg-6{
+        margin-top: 5px;
+    }
+}
+
