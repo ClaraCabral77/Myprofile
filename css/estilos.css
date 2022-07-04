@@ -32,6 +32,10 @@ header#header{
     padding-top: 30px;
 }
 
+.p-c{
+    margin-bottom: 10px;
+}
+
 @media (min-width: 476px){
     header#header{
         background-image: url(../images/fondo1.jpg);
