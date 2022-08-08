@@ -15,6 +15,7 @@ header#header{
 .encabezado{
     margin-bottom: 5%;
     text-align: center;
+    margin-left: 20px;
 }
 .parrafo{
     margin-bottom: 10%;
@@ -36,6 +37,10 @@ header#header{
     margin-bottom: 10px;
 }
 
+
+
+  
+
 @media (min-width: 476px){
     header#header{
         background-image: url(../images/fondo1.jpg);
@@ -47,7 +52,70 @@ header#header{
     }
     .h1-large{
         margin-top: 50px;
+        -webkit-animation: h1-large 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: h1-large 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
     }
+
+    @-webkit-keyframes h1-large {
+        0% {
+          -webkit-transform: translateY(0);
+                  transform: translateY(0);
+          -webkit-transform-origin: 50% 50%;
+                  transform-origin: 50% 50%;
+          text-shadow: none;
+        }
+        100% {
+          -webkit-transform: translateY(-50px);
+                  transform: translateY(-50px);
+          -webkit-transform-origin: 50% 50%;
+                  transform-origin: 50% 50%;
+          text-shadow: 0 1px 0 #cccccc, 0 2px 0 #cccccc, 0 3px 0 #cccccc, 0 4px 0 #cccccc, 0 5px 0 #cccccc, 0 6px 0 #cccccc, 0 7px 0 #cccccc, 0 8px 0 #cccccc, 0 9px 0 #cccccc, 0 50px 30px rgba(0, 0, 0, 0.3);
+        }
+      }
+  
+      .text-box1{
+        margin-bottom: 3rem;
+        padding: 3.5rem 1rem 2.125rem 1rem;
+        border: 1px solid #cfd7de;
+        -webkit-animation: text-box1 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: text-box1 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+      }
+      @-webkit-keyframes text-box1 {
+        0% {
+          -webkit-transform: rotateX(-30deg) translateX(-300px) skewX(-30deg);
+                  transform: rotateX(-30deg) translateX(-300px) skewX(-30deg);
+          opacity: 0;
+        }
+        100% {
+          -webkit-transform: rotateX(0deg) translateX(0) skewX(0deg);
+                  transform: rotateX(0deg) translateX(0) skewX(0deg);
+
+        }
+      }
+
+
+      .text-box2{
+        margin-bottom: 3rem;
+        padding: 3.5rem 1rem 2.125rem 1rem;
+        border: 1px solid #cfd7de;
+        -webkit-animation: text-box2 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        animation: text-box2 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+
+@-webkit-keyframes text-box2 {
+    0% {
+      -webkit-transform: rotateX(-30deg) translateX(300px) skewX(30deg);
+              transform: rotateX(-30deg) translateX(300px) skewX(30deg);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: rotateX(0deg) translateX(0) skewX(0deg);
+              transform: rotateX(0deg) translateX(0) skewX(0deg);
+      opacity: 1;
+    }
+  }
+
     .col-lg-6{
         margin-top: 300px;
     }
