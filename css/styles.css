@@ -890,16 +890,16 @@ input[type='checkbox'] {
 }
 
 .footer .fa-stack .fa-stack-2x {
-	color: #f08630;
+	color:#73e09d;
 	transition: all 0.2s ease;
 }
 
 .footer .fa-stack:hover .fa-stack-1x {
-	color: #0b36a8;
+	color: #0f9b6c;
 }
 
 .footer .fa-stack:hover .fa-stack-2x {
-    color: #ffffff;
+    color: #0a0909;
 }
 
 
@@ -1010,9 +1010,10 @@ a:hover.back-to-top {
 	.btn-solid-lg {
 		display: inline-block;
 		padding: 1.625rem 2.625rem 1.625rem 2.625rem;
-		border: 1px solid #d37a05;
-	background-color:  #f08630;
-		color: #ffffff;
+		border: 1px solid #73e09d ;
+		border-radius: 5px;
+	background-color:  #73e09d;
+		color: #108537;
 		font-weight: 600;
 		font-size: 0.875rem;
 		line-height: 0;
@@ -1023,7 +1024,7 @@ a:hover.back-to-top {
 		font-size: 60px;
 		margin-top: 120px;
 		margin-bottom: 1.75rem;
-		color: #50534e;
+		color: #1a1b19;
 	}
 
 	
